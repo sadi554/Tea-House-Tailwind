@@ -27,12 +27,16 @@
                         colors: {
                             clifford: "#da373d",
                         },
+                        fontFamily;{
+                            'manrope':['Manrope', 'sans-serif']
+
+                        },
                     },
                 },
             };
         </script>
     </head>
-    <body>
+    <body class="font-manrope">
         <!-- Main Content -->
 
         <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
@@ -118,7 +122,7 @@
                             alt=""
                         />
                         <br />
-                        <h2 class="font-bold text-2 xl">Milk Tea</h2>
+                        <h2 class="font-bold text-2xl">Milk Tea</h2>
                         <br />
                         <p class="text-gray-600">
                             Creamer could be replaced <br />
@@ -358,6 +362,106 @@
                 </div>
             </section>
 
+            <!-- News & Event -->
+            <section class="py-8 lg:py-24">
+                <!-- title -->
+                <div class="text-center mb-8">
+                    <h1 class="text-3xl md:text-4xl font-bold mb-2">
+                        News & Events
+                    </h1>
+                    <br />
+                    <p class="text-gray-600 mx-auto">
+                        There are many variations of passages of Lorem Ipsum
+                        available, but the majority have suffered alteration in
+                        some form, <br />
+                        by injected humour, or randomised words which don't look
+                        even slightly believable.
+                    </p>
+                </div>
+
+                <!-- Grid news part -->
+                <div
+                    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-left gap-6"
+                >
+                    <!-- img 1 -->
+                    <div
+                        class="rounded-lg shadow-md bg-gray-50 overflow-hidden"
+                    >
+                        <img class="p-5" src="images/news-1.png" alt="" />
+
+                        <!-- text -->
+                        <div class="px-8 pb-8">
+                            <h5 class="text-gray-500">Feb 05, 2027</h5>
+                            <br />
+
+                            <h2 class="text-xl font-bold">
+                                Collecting 8 points for discount
+                            </h2>
+                            <br />
+
+                            <p class="text-gray-500">
+                                There are many variations of passages <br />
+                                of Lorem Ipsum available.
+                            </p>
+                            <br />
+
+                            <small class="font-bold pb-5">Learn More</small>
+                        </div>
+                    </div>
+
+                    <!-- img 2 -->
+                    <div
+                        class="rounded-lg shadow-md bg-gray-50 overflow-hidden"
+                    >
+                        <img class="p-5" src="images/news-2.png" alt="" />
+
+                        <!-- text -->
+                        <div class="px-8 pb-8">
+                            <h5 class="text-gray-500">Feb 05, 2027</h5>
+                            <br />
+
+                            <h2 class="text-xl font-bold">
+                                Collecting 8 points for discount
+                            </h2>
+                            <br />
+
+                            <p class="text-gray-500">
+                                There are many variations of passages <br />
+                                of Lorem Ipsum available.
+                            </p>
+                            <br />
+
+                            <small class="font-bold pb-5">Learn More</small>
+                        </div>
+                    </div>
+                    <!-- img 3 -->
+                    <div
+                        class="rounded-lg shadow-md bg-gray-50 overflow-hidden"
+                    >
+                        <img class="p-5" src="images/news-3.png" alt="" />
+
+                        <!-- text -->
+                        <div class="px-8 pb-8">
+                            <h5 class="text-gray-500">Feb 05, 2027</h5>
+                            <br />
+
+                            <h2 class="text-xl font-bold">
+                                Collecting 8 points for discount
+                            </h2>
+                            <br />
+
+                            <p class="text-gray-500">
+                                There are many variations of passages <br />
+                                of Lorem Ipsum available.
+                            </p>
+                            <br />
+
+                            <small class="font-bold pb-5">Learn More</small>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <!-- footer sction -->
             <footer class="bg-orange-100 text-gray-700 py-10 px-4 md:px-16">
                 <div class="w-9/12 mx-auto">
@@ -461,7 +565,7 @@
                             <h3 class="font-semibold text-lg mb-3">
                                 Subscribe to our newsletter
                             </h3>
-                            <div class="flex flex-col space-y-2">
+                            <div class="flex space-y-2">
                                 <input
                                     placeholder="Email address"
                                     type="text"
@@ -470,16 +574,11 @@
                                 <i
                                     class="fa-solid fa-chevron-right w-7 h-7 bg-orange-600 rounded-full text-white inline-flex justify-center items-center"
                                 ></i>
-
-                                <div
-                                    class="flex justify-between w-2/5 mb-2 mt-8"
-                                >
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                    <i
-                                        class="fa-brands fa-square-instagram"
-                                    ></i>
-                                    <i class="fa-brands fa-square-twitter"></i>
-                                </div>
+                            </div>
+                            <div class="flex justify-between w-2/5 mb-2 mt-8">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-square-instagram"></i>
+                                <i class="fa-brands fa-square-twitter"></i>
                             </div>
                         </div>
                     </div>
